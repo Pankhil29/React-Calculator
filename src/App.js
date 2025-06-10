@@ -32,7 +32,7 @@ const Calculator = () => {
     <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
       <div className="p-3 rounded shadow" style={{ width: 300, background: '#fff', borderRadius: '20px' }}>
         <div className="mb-3 p-3 bg-white rounded" style={{ height: "70px", fontSize: "1.5rem", textAlign: "right", border: "1px solid #ccc" }}>
-          {input || "0"}
+          {input || "0"}  
         </div>
         <div className="d-grid gap-2">
           {buttons.map((row, rowIndex) => (
